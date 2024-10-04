@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class Aplicacao {
     public static void main(String[] args) {
-        int x,r;
 
         Scanner sc = new Scanner(System.in);
         Corrida cr = new Corrida();
+        int x,r;
 
         System.out.println("O programa vai calcular o valor da sua corrida!");
         System.out.println("Digite as distância em Km");
@@ -34,8 +34,10 @@ public class Aplicacao {
                     break;
                 default:
                     System.out.println("Opção Inválida!");
-            }System.out.println("Para ver o menu novamente digite 0");
+            }
+            System.out.println("Para ver o menu novamente digite 0");
             r = sc.nextInt();
+
         }while (r==0);
     }
 }

@@ -1,8 +1,9 @@
 public class Corrida {
 
+    public double valorFinal;
     private double distancia, tarifaBase, fatorDemanda;
     private int tempoEspera;
-    double valorFinal;
+
 
     public void setDistancia(double distancia){
         this.distancia = distancia;
